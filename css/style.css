@@ -130,17 +130,6 @@ img {
  ************************************************/
 
 
-/*
-@media screen and (min-width:768px) {
-
-    .container {
-        max-width: 768px;
-        margin: 0;
-        padding: 0 20px;
-    }
-
-} */
-
 /* Trasition fro Desktop to Tablet */
 
 @media screen and (min-width:769px) and (max-width:1160px) {
@@ -162,5 +151,39 @@ img {
         margin: 0;
         padding: 0 20px;
     }
+
+}
+
+/* Smartphone */
+
+@media screen and (max-width:480px) {
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        display: block;
+    }
+
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
 
 }
