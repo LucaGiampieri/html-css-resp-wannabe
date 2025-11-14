@@ -132,37 +132,15 @@ img {
 
 /* Trasition fro Desktop to Tablet */
 
-@media screen and (min-width:769px) and (max-width:1160px) {
+@media screen and (max-width:1160px) {
 
     .container {
         max-width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
     }
-
 }
-
-/* Tablet */
-
-@media screen and (max-width:768px) {
-
-    .container {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-
-}
-
-/* Smartphone */
 
 @media screen and (max-width:480px) {
 
-    .container {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
 
     .row {
         display: block;
@@ -194,7 +172,6 @@ img {
 
     .why-us {
         background-color: black;
-
     }
 
     .steps {
