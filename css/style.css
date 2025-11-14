@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,39 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+/*
+@media screen and (min-width:768px) {
+
+    .container {
+        max-width: 768px;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+} */
+
+/* Trasition fro Desktop to Tablet */
+
+@media screen and (min-width:769px) and (max-width:1160px) {
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+}
+
+/* Tablet */
+
+@media screen and (max-width:768px) {
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+}
