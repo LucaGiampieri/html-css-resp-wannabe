@@ -148,7 +148,7 @@ img {
 
     .container {
         max-width: 100%;
-        margin: 0;
+        margin: 0 auto;
         padding: 0 20px;
     }
 
@@ -168,7 +168,6 @@ img {
         display: block;
     }
 
-
     .lessons .col {
         width: 100%;
     }
@@ -185,5 +184,36 @@ img {
         width: 100%;
     }
 
+    .title {
+        padding-top: 2rem;
+    }
 
+    .text {
+        padding-bottom: 2rem;
+    }
+
+    .why-us {
+        background-color: black;
+
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us h2 {
+        padding-top: 2rem;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .col-right li {
+        margin-bottom: 0;
+    }
+
+    .col-right p {
+        padding-bottom: 2.5rem;
+    }
 }
